@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://admin:admin123456@uploader.virjs.mongodb.net/blog?retryWrites=true&w=majority",
+  "mongodb+srv://admin:jacksainther@uploader.virjs.mongodb.net/blog?retryWrites=true&w=majoritytt",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
